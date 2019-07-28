@@ -51,8 +51,9 @@ def update_counting_hash(hash, key)
   }
 end
  
- read_from_hash('hash_5', :name)
+  read_from_hash('hash_5', :name)
   read_from_hash('hash_5', :age)
+  
   
   
   
