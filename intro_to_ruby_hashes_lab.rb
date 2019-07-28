@@ -36,8 +36,6 @@ def read_from_hash(hash, key)
    key => "Steve"
   }
   
-  hash[key]
-  hash[:age]
 end
  
 
