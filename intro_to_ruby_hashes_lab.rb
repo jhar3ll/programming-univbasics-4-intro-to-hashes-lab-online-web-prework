@@ -32,7 +32,7 @@ end
   my_hash_creator(:name, "Grace Hopper") 
  
 def read_from_hash(hash, key) 
- hash["Steve"]
+ hash[key]
    end
  
 
