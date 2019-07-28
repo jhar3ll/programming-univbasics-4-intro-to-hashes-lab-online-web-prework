@@ -32,11 +32,8 @@ end
   my_hash_creator(:name, "Grace Hopper") 
  
 def read_from_hash(hash, key) 
- hash = { 
-   key => "Steve"
-  }
-  
-end
+ hash["Steve"]
+   end
  
 
 def update_counting_hash(hash, key)
